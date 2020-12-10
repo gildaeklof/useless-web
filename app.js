@@ -1,15 +1,19 @@
 const button = document.querySelectorAll("button");
+const audio = document.querySelector(".audio");
+const message = document.querySelector("p");
+const body = document.querySelector("body");
+const spanText = document.querySelector(".friendly");
+const emoji = document.querySelector(".emoji");
+const titleText = document.querySelector("h1");
 
 button.forEach(function (clickButton) {
   clickButton.addEventListener("click", allFunctions);
 });
 
 function play() {
-  var audio = document.querySelector(".audio");
   audio.play();
 }
 
-const message = document.querySelector("p");
 var oldAlert = -1;
 var newAlert = -1;
 
@@ -22,7 +26,6 @@ function alertMessage() {
 }
 
 function background() {
-  const body = document.querySelector("body");
   if (body.style.backgroundColor === "var(--green)") {
   } else {
     body.style.backgroundColor = "black";
@@ -30,20 +33,17 @@ function background() {
 }
 
 function titleSpan() {
-  const spanText = document.querySelector(".friendly");
   spanText.style.color = "red";
   spanText.innerHTML = '"friendly" ';
 }
 
 function emojiChange() {
-  const emoji = document.querySelector(".emoji");
   if (emoji.innerHTML === " &#128149;") {
   } else {
     emoji.innerHTML = " &#128121;";
   }
 }
 
-const titleText = document.querySelector("h1");
 function secondText() {
   if (titleText.style.fontFamily === "var(--text)") {
   } else {
