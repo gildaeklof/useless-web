@@ -1,11 +1,13 @@
 @font-face {
   font-family: "Sansita";
   src: url("/assets/fonts/SansitaSwashed-VariableFont.woff") format("woff");
+  src: url("/assets/fonts/SansitaSwashed-VariableFont.woff2") format("woff2");
 }
 
 @font-face {
   font-family: "Creepster";
   src: url("/assets/fonts/Creepster-Regular.woff") format("woff");
+  src: url("/assets/fonts/Creepster-Regular.woff2") format("woff2");
 }
 
 :root {
@@ -124,7 +126,7 @@ button:focus {
 
 .shake:hover {
   animation-name: shake;
-  animation-duration: 0.2s;
+  animation-duration: 0.3s;
   transform-origin: 50% 50%;
   animation-iteration-count: infinite;
 }
