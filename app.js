@@ -58,6 +58,11 @@ function textColor() {
   }
 }
 
+//displays a random emoji from the emojis array on every load of the page
+window.addEventListener("load", () => {
+  emoji.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
+});
+
 function allFunctions() {
   background();
   alertMessage();
@@ -118,7 +123,3 @@ const emojis = [
   "&#127853;",
   "&#127882;",
 ];
-
-window.addEventListener("load", () => {
-  emoji.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
-});
