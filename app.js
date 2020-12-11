@@ -15,8 +15,8 @@ function play() {
 }
 
 //selects a random message from the alerts array on every button click
-var oldAlert = -1;
-var newAlert = -1;
+let oldAlert = -1;
+let newAlert = -1;
 function alertMessage() {
   while (newAlert == oldAlert) {
     newAlert = Math.floor(Math.random() * alerts.length);
