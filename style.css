@@ -88,16 +88,17 @@ button:focus {
     height: 130px;
     width: 130px;
     font-size: 20px;
+    margin: 10px;
     background-image: url("assets/images/smileyfacesmall.jpg");
   }
   h1 {
-    top: 20px;
+    top: 40px;
     font-size: 2em;
   }
   p {
     padding: 20px;
     bottom: 10px;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
 
