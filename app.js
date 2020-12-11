@@ -100,3 +100,25 @@ const alerts = [
   "Go ahead, punk, make my day.",
   "Sounds like you've had a hard life. Good thing it's over.",
 ];
+
+const emojis = [
+  "&#128158;",
+  "&#128157;",
+  "&#127774;",
+  "&#127800;",
+  "&#127801;",
+  "&#127881;",
+  "&#128150;",
+  "&#128152;",
+  "&#128525;",
+  "&#128523;",
+  "&#128536;",
+  "&#127803;",
+  "&#127799;",
+  "&#127853;",
+  "&#127882;",
+];
+
+window.addEventListener("load", () => {
+  emoji.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
+});
