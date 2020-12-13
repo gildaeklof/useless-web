@@ -40,7 +40,7 @@ function titleSpan() {
 function emojiChange() {
   if (emoji.innerHTML === " &#128149;") {
   } else {
-    emoji.innerHTML = " &#128121;";
+    emoji.innerHTML = badEmojis[Math.floor(Math.random() * badEmojis.length)];
   }
 }
 
@@ -60,6 +60,11 @@ function textColor() {
 
 //displays a random emoji from the emojis array on every load of the page
 window.addEventListener("load", () => {
+  emoji.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
+});
+
+//displays a random emoji from the emojis array when hovering over the emoji
+emoji.addEventListener("mouseover", () => {
   emoji.innerHTML = emojis[Math.floor(Math.random() * emojis.length)];
 });
 
@@ -122,4 +127,20 @@ const emojis = [
   "&#127799;",
   "&#127853;",
   "&#127882;",
+];
+
+const badEmojis = [
+  "&#128122;",
+  "&#128123;",
+  "&#128125;",
+  "&#128127;",
+  "&#128128;",
+  "&#128169;",
+  "&#128298;",
+  "&#128405;",
+  "&#128481;",
+  "&#128545;",
+  "&#129313;",
+  "&#129314;",
+  "&#129324;",
 ];
