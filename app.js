@@ -33,7 +33,7 @@ function background() {
 }
 
 function titleSpan() {
-  spanText.style.color = "red";
+  spanText.style.color = "var(--red)";
   spanText.innerHTML = '"friendly" ';
 }
 
@@ -143,4 +143,5 @@ const badEmojis = [
   "&#129313;",
   "&#129314;",
   "&#129324;",
+  "&#127875;",
 ];

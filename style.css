@@ -11,13 +11,12 @@
 }
 
 :root {
-  --pink: pink;
   --blue: cornflowerblue;
   --green: rgb(179, 233, 179);
   --red: red;
   --text: "Sansita";
   --text2: "Creepster";
-  --titleText: rgb(176, 176, 176);
+  --titleText: rgb(177, 247, 15);
 }
 
 * {
