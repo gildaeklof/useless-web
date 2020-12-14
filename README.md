@@ -6,9 +6,9 @@ This is our first assignment in Javascript. The mission was to create a complete
 
 ## Website
 
-Visit the website @: (https://friendly-button.netlify.app/).
+Visit the website @: https://friendly-button.netlify.app/.
 
 ## Testers
 
 1. Moa Berg
-2.
+2. Agnes Binett
