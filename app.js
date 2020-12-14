@@ -97,7 +97,6 @@ const alerts = [
   "I'll make you pay for this.",
   "You're not getting away with this.",
   "Wow, that's kinda disrespectful.",
-  "You know I have feelings too right?",
   "You really don't want to do that.",
   "You'll regret this.",
   "Why are you the way that you are?",
